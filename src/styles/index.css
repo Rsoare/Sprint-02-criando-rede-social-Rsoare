@@ -1,0 +1,344 @@
+.header__container {
+    background-color: var(--grey-600);
+}
+
+.header__content {
+    display: flex;
+    width: 100%;
+    height: 76px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.header__image {
+    width: 7.5rem;
+    height: 3rem;
+}
+
+.header__content>button {
+    border: none;
+    background: transparent;
+    color: var(--grey-100);
+}
+
+.main__container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form__user--container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 15rem;
+    padding: 0 1rem;
+}
+
+
+.form__submit--container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.form__submit--title {
+    font-size: var(--text1-size);
+    font-weight: var(--text1-weight);
+    line-height: var(--text1-lineHeight);
+    font-family: var(--font-primary);
+    border: solid 2px var(--grey-300);
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.form__submit--description {
+    font-size: var(--text1-size);
+    font-weight: var(--text1-weight);
+    line-height: var(--text1-lineHeight);
+    font-family: var(--font-primary);
+    border: solid 2px var(--grey-300);
+    width: 100%;
+    height: 8.25rem;
+    border-radius: 4px;
+
+}
+
+.form__submit--description:focus,
+.form__submit--title:focus {
+    outline: none;
+}
+
+.form__submit--title::placeholder,
+.form__submit--description::placeholder {
+    color: var(--grey-400);
+    font-size: var(--text1-size);
+    font-weight: var(--text1-weight);
+    line-height: var(--text1-lineHeight);
+    font-family: var(--font-primary);
+}
+
+.form__button--submit {
+    background-color: var(--grey-300);
+    color: var(--grey-400);
+    height: 2.3rem;
+    width: 4.3rem;
+    border: none;
+    align-self: flex-end;
+    border-radius: 4px;
+}
+
+.aside__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 11rem;
+}
+
+.aside__content--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aside__list--container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow-x: scroll;
+    height: 100%;
+
+}
+
+.aside__list--item {
+    display: flex;
+    gap: 1rem;
+    min-width: 15rem;
+}
+
+.user__image--aside {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.aside__button {
+    background-color: var(--button-aside);
+    border: solid 2px var(--grey-700);
+    color: var(--grey-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.7rem;
+    width: 4rem;
+    align-self: flex-end;
+    border-radius: 4px;
+}
+
+.aside__button--toggle {
+    background-color: var(--button-asideActive);
+    border: none;
+    color: var(--grey-100);
+    width: 5rem;
+}
+
+.article__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.article__content--container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.article__content {
+    height: 4.5rem;
+    white-space: pre-line;
+    overflow: hidden;
+}
+
+.article__post--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.article__user--container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 15rem;
+
+}
+
+.user__image {
+    width: 3.5rem;
+}
+
+.article__button--container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.article__button--opemModal {
+    background-color: var(--button-post);
+    color: var(--grey-100);
+    border-radius: 4px;
+    border: none;
+    height: 2.3rem;
+    width: 5.7rem;
+}
+
+.article__button--opemModal:hover {
+    background-color: var(--button-postHouver);
+}
+
+.article__button--like {
+    border: none;
+    background: transparent;
+}
+
+.article__button--container>span {
+    margin-left: -0.5rem;
+
+}
+
+.modal__container {
+    position: relative;
+    width: 80%;
+    margin: 3rem auto;
+    height: fit-content;
+    border: none;
+    border-radius: 5px;
+}
+
+.modal__content--container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.modal__user--container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modal__user--image {
+    width: 3.5rem;
+}
+
+.modal__button--close {
+    position: absolute;
+    border: none;
+    font-family: var(--font-CloseModal);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    right: 13px;
+    top: 9px;
+    max-width: 768px;
+}
+
+@media screen and (min-width:769px) {
+    body {
+        position: relative;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    .header__container {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .header__content {
+        max-width: 1290px;
+        margin: 0 auto;
+
+
+    }
+
+    .main__container {
+        position: relative;
+        max-width: 1290px;
+        margin: 8rem auto;
+        padding: 0 2rem;
+    }
+
+    .form__user--container {
+        padding: 0;
+        width: 50%;
+    }
+
+    .form__submit--container {
+        width: 50%;
+        margin: 0;
+    }
+
+    .form__submit--description,
+    .form__submit--title {
+        width: 99%;
+    }
+
+    .aside__container {
+        display: flex;
+        width: 25rem;
+        height: 40rem;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .aside__content--container {
+        position: sticky;
+        top: 10rem;
+    }
+
+    .aside__list--container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .aside__list--item {
+        position: relative;
+    }
+
+    .aside__button {
+        position: absolute;
+        right: 1rem;
+        top: 0.6rem;
+    }
+
+    .article__container {
+        width: 50%;
+        margin: 0;
+    }
+
+    .modal__container {
+        width: 40rem;
+    }
+}

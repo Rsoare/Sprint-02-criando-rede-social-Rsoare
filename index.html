@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/globalStyles.css">
+    <link rel="stylesheet" href="/src/styles/index.css">
+
+    <script src="/src/scripts/posts.js" defer></script>
+    <script src="/src/scripts/users.js" defer></script>
+    <script src="/src/scripts/sugestUsers.js" defer></script>
+    <script src="/src/scripts/index.js" defer></script>
+    <title>Rede Social</title>
+</head>
+
+<body>
+    <header class="header__container">
+        <div class="header__content">
+            <figure>
+                <img src="/src/assets/img/logo.svg" alt="logo TechPosters" class="header__image">
+            </figure>
+            <button>Sair</button>
+        </div>
+    </header>
+    <main class="main__container">
+        <section class="form_container">
+            <div class="form__user--container">
+                <figure>
+                    <img src="/src/assets/img/user1.svg" alt="" class="user__image">
+                </figure>
+                <div>
+                    <h2>Samuel Leão</h2>
+                    <p>Fron end Enginer</p>
+                </div>
+            </div>
+            <form class="form__submit--container">
+                <label for="form__submit--title"></label>
+                <input type="text" name="form__submit--title" class="form__submit--title"
+                    placeholder="Digitar título do post">
+
+                <label for="form__submit--description"></label>
+                <textarea name="form__submit--description" class="form__submit--description"
+                    placeholder="Digitar descrição do post"></textarea>
+                <button class="form__button--submit">Postar</button>
+            </form>
+        </section>
+        <section class="aside__container">
+            <div class="aside__content--container">
+                <h2>Sugestões para você seguir</h2>
+                <ul class="aside__list--container">
+                </ul>
+            </div>
+        </section>
+        <section class="article__container">
+            <article class="article__post--container">
+                <h1>Post</h1>
+            </article>
+        </section>
+    </main>
+    <dialog class="modal__container">
+
+    </dialog>
+</body>
+
+</html>
