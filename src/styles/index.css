@@ -48,7 +48,7 @@
 
 .form__submit--title {
     font-size: var(--text1-size);
-    font-weight: var(--text1-weight);
+    font-weight: var(--text-weight);
     line-height: var(--text1-lineHeight);
     font-family: var(--font-primary);
     border: solid 2px var(--grey-300);
@@ -60,7 +60,7 @@
 
 .form__submit--description {
     font-size: var(--text1-size);
-    font-weight: var(--text1-weight);
+    font-weight: var(--text-weight);
     line-height: var(--text1-lineHeight);
     font-family: var(--font-primary);
     border: solid 2px var(--grey-300);
@@ -79,7 +79,7 @@
 .form__submit--description::placeholder {
     color: var(--grey-400);
     font-size: var(--text1-size);
-    font-weight: var(--text1-weight);
+    font-weight: var(--text-weight);
     line-height: var(--text1-lineHeight);
     font-family: var(--font-primary);
 }
@@ -306,16 +306,16 @@
     .aside__container {
         display: flex;
         width: 25rem;
-        height: 40rem;
+        height: 100%;
         margin: 0;
         position: absolute;
         right: 0;
-        top: 0;
+        top: 0rem;
     }
 
     .aside__content--container {
         position: sticky;
-        top: 10rem;
+        top: 5rem;
     }
 
     .aside__list--container {

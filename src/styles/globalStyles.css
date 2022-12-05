@@ -16,23 +16,22 @@
 
     --title2-weight: 600;
     --title2-size: 1.25rem;
-    --title2-lineHeight: 1.5rem;
+    --title2-lineHeight: 1.7rem;
 
-    --text1-weight: 400;
+    --text-weight: 400;
+
     --text1-size: 1rem;
     --text1-lineHeight: 1.75rem;
 
-    --text2-weight: 400;
     --text2-size: 0.87rem;
     --text2-lineHeight: 1.5rem;
 
-    --text3-weight: 400;
     --text3-size: 0.75rem;
     --text3-lineHeight: 1rem;
 
     --button-weight: 500;
     --button-size: 1rem;
-    --button-lineHeight: 1.75rem;
+    --button-lineHeight: 1.60rem;
 
     --button-aside: #FFFFFF;
 
@@ -41,9 +40,6 @@
 
     --button-post: #212529;
     --button-postHouver: #0A0C0D;
-
-    --brand-color1: #4263EB;
-    --brand-color2: #364FC7;
 
     --grey-100: #FFFFFF;
     --grey-200: #F8F9FA;
@@ -76,7 +72,7 @@ h2 {
 
 p {
     font-size: var(--text2-size);
-    font-weight: var(--text2-weight);
+    font-weight: var(text-weight);
     line-height: var(--text2-lineHeight);
 }
 
